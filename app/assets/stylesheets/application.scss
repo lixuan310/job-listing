@@ -240,7 +240,12 @@ footer .footer-below {
 
 .search-box{
   margin-top: 8px;
+
+  input{
+    min-width: 225px !important;
+  }
 }
+
 
 .form-group {
     margin-botton: 10px;
