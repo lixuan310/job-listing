@@ -1,0 +1,37 @@
+/*--- Job ---*/
+
+.job-content{
+  min-height: 725px;
+  margin-top: 100px;
+
+  a{
+    text-decoration: none;
+  }
+}
+
+.side-box{
+ display: inline-block;
+ position: absolute;
+ margin-top: 112px; //这些根据你的页面显示自己调节数值
+ margin-left: 35px;
+ padding-bottom: 12.5px;
+ min-width: 260px;
+
+ background-color: #1A6561;
+ color: #fff;
+ box-shadow: 2px 2px 3px #aaa;
+}
+
+.job-box{
+ border: 1.5px solid #ddd;
+ box-shadow: 1px 1px 5px #ccc;
+ margin-top: 12.5px;
+ padding: 15px 1px 1px 20px;
+ background-color: #fff;
+ color: #555;
+ font-size: 16px;
+
+ div{
+ margin-bottom: 5px;
+ }
+}
