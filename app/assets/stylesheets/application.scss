@@ -22,11 +22,11 @@
 
 /****** LOGIN MODAL ******/
 .loginmodal-container {
-  padding: 30px;
+  padding: 20px;
   max-width: 350px;
   width: 100% !important;
   background-color: #F7F7F7;
-  margin: 0 auto;
+  margin: -20 auto;
   border-radius: 2px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;
@@ -47,7 +47,7 @@
 }
 
 .loginmodal-container input[type=text], input[type=password] {
-  height: 44px;
+  height: 25px;
   font-size: 16px;
   width: 100%;
   margin-bottom: 10px;
@@ -74,7 +74,7 @@
   font-size: 14px;
   font-family: 'Arial', sans-serif;
   font-weight: 700;
-  height: 36px;
+  height: 25px;
   padding: 0 8px;
 /* border-radius: 3px; */
 /* -webkit-user-select: none;
@@ -87,7 +87,7 @@
   color: #fff;
   text-shadow: 0 1px rgba(0,0,0,0.1);
   background-color: #4d90fe;
-  padding: 17px 0px;
+  padding: 12px 0px;
   font-family: roboto;
   font-size: 14px;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
@@ -121,7 +121,6 @@
 .navbar-default {
     background-color: #212121;
     border-color: #212121;
-    margin-bottom: 0;
     border-radius: 0;
 }
 
@@ -168,6 +167,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;
+    margin-top: -20px;
 
     .box-inner {
         background-color: rgba(250, 250, 250, 0.69);
@@ -346,6 +346,20 @@ a:hover{
   box-shadow: 0 5px 10px #aaa;
 }
 
+.dropdown-menu > li > a {
+  color: black;
+  padding: 8px 17px;
+  font-size: 14px;
+  font-color: black;
+  letter-spacing: 1px;
+}
+
+ .dropdown-menu > li > a:hover
+ {
+   background-color: #B6c9f2;
+   color: #000;
+ }
+
 .job-box{
   border: 1.5px solid #ddd;
   box-shadow: 1px 1px 5px #ccc;
@@ -424,7 +438,7 @@ a:hover{
 
 .login-box-content{
     background: #fff;
-    margin-top: 135px;
+    margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     box-shadow: 1px 3px 5px #333;
@@ -472,3 +486,5 @@ a:hover{
       }
     }
 }
+
+//------default-menu-------

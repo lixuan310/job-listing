@@ -4,10 +4,10 @@ Rails.application.routes.draw do
   resources :favorite
 
   resources :jobs do
-    resources :resumes
     collection do
       get :search
     end
+    resources :resumes
   end
 
   root 'welcome#index'

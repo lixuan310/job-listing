@@ -64,10 +64,12 @@ def destroy
 end
 
 def search
+    @jobs = Job.where(id:-1)
     if @query_string.present?
       search_result = Job.published.ransack(@search_criteria).result(:distinct => true)
       @jobs = search_result.paginate(:page => params[:page], :per_page => 5 )
     end
+    render :index
 end
 
 def favorite
@@ -94,7 +96,7 @@ def validate_search_key
 end
 
 def search_criteria(query_string)
-  { :title_cont => query_string }
+  { :title_or_description_or_workplace_cont => query_string }
 end
 
 
